@@ -13,7 +13,8 @@
         </ul>
       <?php } else { ?>
         <li><a class="waves-effect waves-light btn orange lighten-2" href="<?= $base ?>/add">Place an Ad</a></li>
-        <li><a href="<?= $base ?>/user/<?= $_SESSION['user']; ?>"><i class="material-icons left">person</i> <?= $_SESSION["user"]; ?></a></li>
+        <li><a href="<?= $base ?>/user/<?= $_SESSION['user']; ?>"><i class="material-icons left">person</i></a></li>
+        <li><a href="<?= $base ?>/messages"><i class="material-icons">message</i></a></li>
         <li><a href="<?= $base ?>/logout">Logout</a></li>
         </ul>
       <?php } ?>
@@ -25,7 +26,8 @@
         </ul>
       <?php } else { ?>
         <li><a class="waves-effect waves-light btn orange lighten-2" href="<?= $base ?>/add">Place an Ad</a></li>
-        <li><a href="<?= $base ?>/user/<?= $_SESSION['user']; ?>"><i class="material-icons left">person</i> <?= $_SESSION["user"]; ?></a></li>
+        <li><a href="<?= $base ?>/user/<?= $_SESSION['user']; ?>"><i class="material-icons left">person</i></a></li>
+        <li><a href="<?= $base ?>/messages"><i class="material-icons">message</i></a></li>
         <li><a href="<?= $base ?>/logout">Logout</a></li>
         </ul>
       <?php } ?>

@@ -150,6 +150,13 @@ $app->get("/user/:id", function($id) use ($app)
 
 });
 
+$app->get("/messages", function () use ($app, $login) 
+{
+
+	$app->render("messages.php");
+
+});
+
 $app->get("/getchat", function() use ($app, $login) 
 {
 
