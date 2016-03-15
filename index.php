@@ -160,14 +160,9 @@ $app->get("/messages", function () use ($app, $login)
 $app->get("/getchat", function() use ($app, $login) 
 {
 
-	$data = array(
-		'key' => 'value',
-		'key2' => 'test'
-	);
-
-	$json = json_encode($data);
-
-	echo $json;
+	if ($login->isLoggedIn()) {
+		echo "SWEG"
+	}
 
 });
 
